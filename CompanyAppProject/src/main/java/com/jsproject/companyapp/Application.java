@@ -17,7 +17,7 @@ public class Application {
 
         database = CompanyDatabase.getInstance();
         try {
-            database.open("C:/Users/nikla/Documents/Ohjelmointi/omat/JavaScriptProject/companydb.db"); // database path
+            database.open(""); // database path
         } catch (SQLException e) {
             System.out.println("Database fail");
         }
